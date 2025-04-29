@@ -5,7 +5,7 @@
 //Polymorphism - A single behaves differently based on the object.
 
 const car = {
-    Brand: "Tesla",
+    Brand: "Tesl",
     model: "Model X",
     Start: function () {
         console.log(this.Brand + " " + "is starting...") //this keyword refers to the current object.
