@@ -27,6 +27,8 @@ const tatkalBook = new Promise ((resolve, reject) => {
 tatkalBook.then((amt) => console.log(`Thankyou Buddy! I will sent you ${amt}`));
 tatkalBook.catch(() => console.log("Thanks for trying. I'll book a bus"));
 
+//comment
+
 //multiple promises
 let reachA = new Promise((resolve, reject) => {
     const reached = true
